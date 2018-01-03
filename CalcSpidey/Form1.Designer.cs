@@ -38,9 +38,6 @@
             this.btnmult = new System.Windows.Forms.Button();
             this.btn4 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnVol = new System.Windows.Forms.Button();
-            this.btnLngth = new System.Windows.Forms.Button();
             this.btnScientific = new System.Windows.Forms.Button();
             this.btnStandard = new System.Windows.Forms.Button();
             this.lblCalc = new System.Windows.Forms.Label();
@@ -149,9 +146,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.btnVol);
-            this.panel2.Controls.Add(this.btnLngth);
             this.panel2.Controls.Add(this.btnScientific);
             this.panel2.Controls.Add(this.btnStandard);
             this.panel2.Controls.Add(this.lblCalc);
@@ -160,43 +154,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(126, 447);
             this.panel2.TabIndex = 24;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Baskerville Old Face", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(12, 175);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 24);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Converter";
-            // 
-            // btnVol
-            // 
-            this.btnVol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVol.Font = new System.Drawing.Font("Baskerville Old Face", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVol.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btnVol.Location = new System.Drawing.Point(16, 274);
-            this.btnVol.Name = "btnVol";
-            this.btnVol.Size = new System.Drawing.Size(91, 37);
-            this.btnVol.TabIndex = 6;
-            this.btnVol.Text = "Volume";
-            this.btnVol.UseVisualStyleBackColor = true;
-            this.btnVol.Click += new System.EventHandler(this.btnVol_Click);
-            // 
-            // btnLngth
-            // 
-            this.btnLngth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLngth.Font = new System.Drawing.Font("Baskerville Old Face", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLngth.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btnLngth.Location = new System.Drawing.Point(16, 214);
-            this.btnLngth.Name = "btnLngth";
-            this.btnLngth.Size = new System.Drawing.Size(91, 37);
-            this.btnLngth.TabIndex = 5;
-            this.btnLngth.Text = "Length";
-            this.btnLngth.UseVisualStyleBackColor = true;
-            this.btnLngth.Click += new System.EventHandler(this.btnLngth_Click);
             // 
             // btnScientific
             // 
@@ -452,9 +409,6 @@
         private System.Windows.Forms.Button btnmult;
         private System.Windows.Forms.Button btn4;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnVol;
-        private System.Windows.Forms.Button btnLngth;
         private System.Windows.Forms.Button btnScientific;
         private System.Windows.Forms.Button btnStandard;
         private System.Windows.Forms.Label lblCalc;
